@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <link href="styles/tables.css" rel="stylesheet" type="text/css">
+  <title>Matthew Flynn, Activity #2 - HTML Tables</title>
+</head>
+
+<body>
+  <header>
+      <h1>Matthew Flynn -- ITIS3135</h1>
+  </header>
+  <nav>
+      <a href="#">Introduction</a>
+      ||
+      <a href="#">Contact</a>
+  </nav>
+
+  <main>
+      <h2>Activity 2 - HTML Tables</h2>
+      <hr>
+      <h3>My Tabular Data</h3>
+      <ol>
+        <li>Scrigs Griggs scriggrig@gmail.com 4</li>
+        <li>Wheatly Robos memorycore@gmail.com 20</li>
+        <li>Cave Johnson ceo@apeture.org 30 </li>
+        <li>Leah Rose lrose15@uncc.edu 3</li>
+        <li>Borg Choogas wabbit@gmail.com 1 </li>
+        <li>Flint Lockwood flockwood@gmail.com 15 </li>
+        <li>Sora Alaquit keyblade@gmail.com 14 </li>
+      </ol>
+
+      <h3>Employee Data in Simple Table</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>E-Mail</th>
+            <th>Years of Service</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Scrigs Griggs</td>
+            <td>scriggrig@gmail.com</td>
+            <td class="right">4</td>
+          </tr>
+		  <tr>
+            <td>Wheatly Robos</td>
+            <td>memorycore@gmail.com</td>
+            <td class="right">20</td>
+          </tr>
+          <tr>
+            <td>Cave Johnson</td>
+            <td>ceo@apeture.org</td>
+            <td class="right">30</td>
+          </tr>
+          <tr>
+            <td>Leah Rose</td>
+            <td>lrose15@uncc.edu</td>
+            <td class="right">3</td>
+          </tr>
+          <tr>
+            <td>Borg Choogas</td>
+            <td>wabbit@gmail.com</td>
+            <td class="right">1</td>
+          </tr>
+          <tr>
+            <td>Flint Lockwood</td>
+            <td>flockwood@gmail.com</td>
+            <td class="right">15</td>
+          </tr>
+          <tr>
+            <td>Sora Alaquit</td>
+            <td>keyblade@gmail.com</td>
+            <td class="right">14</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Employee Data in Complex Table</h3>
+      <figure>
+        <figcaption>Employee Information</figcaption>
+        <table>
+          <thead>
+            <tr id="head">
+              <th scope="col">Relationship</th>
+              <th scope="col">Name</th>
+              <th scope="col">E-Mail</th>
+              <th scope="col">Years of Service</th>
+              <th scope="col">Salary (Annual)</th>
+            </tr>
+          </thead>
+          <tbody id="body">
+            <tr>
+              <td rowspan="2">Admin</td>
+              <td>Scrigs Griggs</td>
+              <td>scriggrig@gmail.com</td>
+              <td class="right">4</td>
+              <td class="right">$48,000</td>
+            </tr>
+            <tr>
+              <td>Wheatly Robos</td>
+              <td>memorycore@gmail.com</td>
+              <td class="right">20</td>
+              <td class="right">$23,000</td>
+            </tr>
+            <tr>
+			  <td rowspan="2"> Associates </td>
+              <td>Cave Johnson</td>
+              <td>ceo@apeture.org</td>
+              <td class="right">30</td>
+              <td class="right">$4750</td>
+            </tr>
+            <tr>
+              <td>Leah Rose</td>
+              <td>lrose15@uncc.edu</td>
+              <td class="right">3</td>
+              <td class="right">$28,000</td>
+            </tr>
+            <tr>
+			  <td rowspan="3"> Staff
+              <td>Borg Choogas</td>
+              <td>wabbit@gmail.com</td>
+              <td class="right">1</td>
+              <td class="right">$69,420</td>
+            </tr>
+            <tr>
+              <td>Flint Lockwood</td>
+              <td>flockwood@gmail.vom</td>
+              <td class="right">15</td>
+              <td class="right">$10,000</td>
+            </tr>
+            <tr>
+              <td>Sora Alaquit</td>
+              <td>keyblade@gmail.com</td>
+              <td class="right">14</td>
+              <td class="right">$35,800</td>
+            </tr>
+            <tr>
+              <th colspan="3" scope="row">Total Years of Service:</th>
+              <td colspan="2" class="right">87</td>
+            </tr>
+            <tr>
+              <th colspan="4" scope="row">Total Monthly Pay:</th>
+              <td class="right">$218970</td>
+            </tr></tbody>
+        </table>
+      </figure>
+  </main>
+ <footer>
+    <br>
+    <nav class="green-text">
+        <a href="https://webpages.uncc.edu/mflynn15" target="_blank">Charlotte.edu</a>
+         | 
+        <a href="https://Nobleman-Hale.github.io" target="_blank"> Github</a>
+         | 
+        <a href="Nobleman-Hale.github.io/itis3135" target="_blank">ITIS 3135 Github Page</a>
+         | 
+        <a href="https://www.freecodecamp.org/mflynn15" target="_blank">freecodecamp</a>
+    </nav>
+    <br>
+    <p>Page built by the lovely Halestar Methianas</p>
+
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+		<a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+  </footer>
+
+
+</body></html>
