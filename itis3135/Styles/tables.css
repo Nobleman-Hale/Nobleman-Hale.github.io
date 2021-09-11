@@ -1,8 +1,6 @@
 /*ITIS 3135 Activity 2 css file*/
 
-table:nth-child(even) {
-background-color: #777;
-color: #fff; }
+
 
 body
 {
@@ -16,7 +14,10 @@ table
 	
 	margin: 20px;
 }
-
+table tr:nth-child(even) {
+background-color: #777;
+color: #fff; 
+}
 thead
 {
 	background-color: green;
