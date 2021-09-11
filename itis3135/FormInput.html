@@ -4,7 +4,7 @@
 		<title>Apeture Company Newsletter Interest</title>
 		<meta name="description" content="3135 Activity">
 		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="Activity3.css">
+		<link rel="stylesheet" type="text/css" href="FormInput.css">
 	</head>
 
 	<body>
@@ -21,20 +21,65 @@
 				<li>Sentient AI</li>
 				<li>Flammable Lemons</li>
 			</ul>
-		<form>
-			<label for="emailInput"> Interested? Input your email here: </label>
+		<form action="#">
+			<label for="Input"> Interested? Input your info here: </label>
+			<br>
+			<label for="emailInput"> Email </label>
 			<input type="text" id="emailInput" name="email">
-			<input type="button" id="submit" name="submit">
+			<br>
+			<label for="phoneInput"> Phone </label>
+			<input type="text" id="phoneInput" name="phone">
+			<br>
+			<label for="nameInput"> Name </label>
+			<input type="text" id="nameInput" name="name" placeholder="Don't lie!" size="50">
+			<br>
+			<label for="intrest"> I am interested in:</label>
+			<select name="intrest" id="intrest">
+				<option value="Portal Guns">Portal Guns</option>
+				<option value="Long Drop Boots">Long Drop Boopts</option>
+				<option value="Sentient AI">Sentient AI</option>
+				<option value="Flammable Lemons">Flammable Lemons</option>				
+			<label for="consent"> Do you consent to us burying you in Aperture's amazing findings?</label>
+			<input type="radio" id="consent" name="consent" value="yes">
+			<label for="yes"> Yes </label>
+			<input type="radio" id="consent" name="consent" value="no">
+			<label for="no"> No </label>
+			<br>
+			<p>And just go ahead and check these for us</p>
+			<input type="checkbox" id="disclaimer1" name="disclaimer" value="">
+			<label for="disclaimer1"> I understand that Aperture Science's research is not entirely within the bounds of the law</label><br>
+			<input type="checkbox" id="disclaimer2" name="disclaimer" value="" required>
+			<label for="disclaimer2"> I understand that if I tell anyone about this Cave Johnson will personally burn my house down with flammable lemons</label><br>
+			<input type="checkbox" id="disclaimer2" name="disclaimer" value="" required>
+			<label for="disclaimer2"> Please inform me of any company parties</label><br>
+			<br>
+			<input type="submit" value="Submit">
 		</form>
 
 		</main>
 
-		<footer>
-			<p>Copyright © Aperture Science<br>
-			ceo@aperture.com</p>
+	<footer>
+		<br>
+		<nav class="green-text"><a>
+        </a><a href="https://webpages.uncc.edu/mflynn15" target="_blank">Charlotte.edu</a>
+         | 
+        <a href="https://Nobleman-Hale.github.io" target="_blank"> Github</a>
+         | 
+        <a href="Nobleman-Hale.github.io/itis3135" target="_blank">ITIS 3135 Github Page</a>
+         | 
+        <a href="https://www.freecodecamp.org/mflynn15" target="_blank">freecodecamp</a>
+		 |
+		<a href="itis3135/tables.html" target="_blank">HTML Tables</a>
+		 |
+		<a href="itis3135/FormInput.html" target="_blank">Form Input</a>
+		</nav>
+		<br>
+		<p>Page built by the lovely Halestar Methianas</p>
+		<p>Copyright © Aperture Science<br>
+		ceo@aperture.com</p>
 			<a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> 
 			<a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
-		</footer>
+	</footer>
 
 	</body>
 </html>
